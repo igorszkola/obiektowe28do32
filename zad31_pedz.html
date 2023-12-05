@@ -1,0 +1,24 @@
+<html>
+ <head>
+ <script type="text/javascript">
+	var komputer =
+	{
+			procesor: 'Intel - CD8069504448800 - Intel Xeon Gold 6230R - 2.1 GHz - 26-core - 52 threads - 35.75 MB cache',
+			karta_graficzna: 'Gigabyte GeForce RTX 3060 Gaming OC 12GB V2 LHR Grafikkarte, GV-N3060GAMING OC-12GD V2',
+			obudowa: 'Endorfy Ventum 200 Argb EY2A014 Obudowa, Czarny',
+			komputer_pokaz_pedziwilk: function ()
+			{
+				 document.write("Procesor: "+this.procesor + '<br> Karta Graficzna: ' + this.karta_graficzna + '<br> Obudowa: ' + this.obudowa)
+			}
+	}
+	komputer.komputer_pokaz_pedziwilk();
+	komputer.wentylator='ASUS ROG Ryujin III 360 ARGB All-in-one';
+	komputer.wypisz=function() {alert('Wentylator: ' + this.wentylator)}
+	komputer.wypisz();
+ </script>
+ </head>
+<body>
+<br>
+ programowanie obiektowe
+</body>
+</html>

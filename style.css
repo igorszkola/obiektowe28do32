@@ -1,0 +1,19 @@
+h1,h3,form
+{
+	border-bottom: 2px gray solid;
+	padding:1rem;
+}
+body
+{
+	background-image: linear-gradient(lightblue, pink);
+}
+h1
+{
+	text-align:center;
+}
+input
+{
+	border-radius:10px;
+	border: black 1px solid;
+	padding:5px;
+}

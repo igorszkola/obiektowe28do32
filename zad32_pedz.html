@@ -1,0 +1,29 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function komputer(procesor_k,kartagraficzna_k,obudowa_k)
+{
+this.procesor=procesor_k;
+this.kartagraficzna=kartagraficzna_k;
+this.obudowa=obudowa_k;
+}
+ komputer.prototype.wypisz = function () 
+ {
+  alert("Procesor: "+this.procesor + ' Karta Graficzna: ' + this.kartagraficzna + '  Obudowa: ' + this.obudowa)
+ };
+var sprzet1 = new komputer("AMD Ryzen 5 5600", "Gigabyte GeForce RTX 3060", "Endorfy Ventum 200"); 
+var sprzet2 = new komputer('Intel Core i9-13900F', 'MSI GeForce RTX 4060 Ti Ventus 2X', 'Mars Gaming MCV4 Biały,');
+var sprzet3= new komputer('Intel Core i5-12400F', 'Karta graficzna GeForce RTX 3060 Gaming OC', 'NZXT H7 Flow Midi Tower, czarny - biały');
+sprzet1.wypisz(); 
+sprzet2.wypisz();
+sprzet3.wypisz();
+    document.write("dostęp do właściwości"+"<br>");
+    document.write("Sprzęt pierwszy"+"<br> Procesor: "+sprzet1.procesor+"<br> Karta Graficzna: "+  sprzet1.kartagraficzna+"<br> Obudowa: "+sprzet1.obudowa+"<br>");
+    document.write("Sprzęt drugi"+"<br> Procesor: "+sprzet2.procesor+"<br> Karta Graficzna: "+    sprzet2.kartagraficzna+"<br> Obudowa: "+sprzet2.obudowa+"<br>");
+    document.write("Sprzęt trzeci"+"<br> Procesor: "+sprzet3.procesor+"<br> Karta Graficzna: "+sprzet3.kartagraficzna+"<br> Obudowa: "+sprzet3.obudowa+"<br>");
+ </script>
+ </head>
+<body>
+ programowanie obiektowe
+</body>
+</html>
