@@ -1,0 +1,1 @@
+# obiektowe28do32
